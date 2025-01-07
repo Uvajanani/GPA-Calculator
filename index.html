@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            <img src="calculator.png" alt="">
+            <h3><a href="">GPA Calculator</a></h3>
+        </div>
+        <div class="use">
+            <a href="https://github.com/Uvajanani"><img src="github.png" alt=""></a>
+        </div>
+    </div>
+
+    <div class="addCourse">
+        <h2>Add Course</h2>
+        <div class="left-right">
+            <p>Year</p>
+            <select name="year" id="year">
+                <option value="">Select Year</option>
+                <option value="option1">1st year</option>
+                <option value="option2">2nd year</option>
+                <option value="option3">3rd year</option>
+            </select>
+            <p>Semester</p>
+            <select name="sem" id="sem">
+                <option value="" disabled selected>Select Semester</option>
+            </select>
+
+            <p>Course Name</p>
+            <select name="course" id="course">
+                <option value="" disabled selected>Select Course</option>
+            </select>
+            
+            <p>Credits</p>
+            <input type="number" placeholder="Credits" id="credits">
+            <p>Grade</p>
+            <select name="grade" id="grade">
+                <option value="" disabled selected>Enter the Grade</option>
+                <option value="O">O</option>
+                <option value="A+">A+</option>
+                <option value="A">A</option>
+                <option value="B+">B+</option>
+                <option value="B">B</option>
+                <option value="F">Fail</option>
+            </select>
+        </div>
+        <button class="add">Add Course</button>
+    </div> 
+
+    <div class="displayCourses">
+        <h2>Your Courses</h2>
+        <p id="initial">No courses added yet !!!</p>
+        <table id="contents">
+            <tr>
+                <th>Course</th>
+                <th>Credits</th>
+                <th>Grade</th>
+            </tr>
+        </table>
+        <button class="calculate">Calculate GPA</button>
+        
+    </div>
+
+    <div class="gpa">
+        <h2>Your GPA</h2>
+        <p id="result">0</p>
+    </div>
+
+    <div class="footer">
+        Copyrighted &copy;  by Uva - All rights are reserved.
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
