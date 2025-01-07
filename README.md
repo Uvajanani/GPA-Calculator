@@ -26,3 +26,23 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Uvajanani/GPA-Calculator.git
+
+2. Navigate to the project folder:
+
+cd GPA-Calculator
+
+3. Open the index.html file in your browser.
+   
+open index.html
+
+## How to Use
+
+1. Select Your Year: Choose your academic year from the dropdown.
+
+2. Select Your Semester: After selecting the year, choose the semester for that year.
+
+3. Add a Course: Select a course, enter the number of credits, and choose the grade you received. Click "Add Course" to add it to the list.
+
+4.View Your Courses: The courses you add will be displayed in a table. You can delete any course from the list by clicking the "DELETE" button.
+
+5. Calculate Your GPA: Once you've added all your courses, click "Calculate GPA" to see your GPA.
