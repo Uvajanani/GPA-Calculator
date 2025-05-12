@@ -49,5 +49,7 @@ To run this project locally, follow these steps:
 
 📈 Calculate GPA: Click "Calculate GPA" to display your GPA instantly.
 
+---
+
 ## 🙏 Acknowledgements
 Thanks to all contributors, testers, and users who supported this project. ❤️
