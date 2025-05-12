@@ -1,45 +1,53 @@
-# GPA Calculator
+# 🎓 GPA Calculator
 
-## Overview
+## 📌 Overview
 
-This project is a **GPA Calculator** built using HTML, CSS, and JavaScript. It allows students to input their courses, credits, and grades, and calculates their GPA based on the data provided. The project includes features like adding and deleting courses, displaying the GPA, and organizing courses by year and semester.
+This project is a **GPA Calculator** built using **HTML**, **CSS**, and **JavaScript**. It allows students to input their courses, credits, and grades, and calculates their GPA based on the data provided. The project includes features like adding and deleting courses, displaying the GPA, and organizing courses by year and semester.
 
-## Features
+---
 
-- **Add Course**: Allows users to add courses, specify the year, semester, course name, credits, and grade.
-- **Display Courses**: Displays a table of all added courses with their respective credits and grades.
-- **Calculate GPA**: Automatically calculates the GPA based on the entered data.
-- **Dynamic Year and Semester Selection**: Users can select their academic year and semester to display relevant courses.
-- **Delete Course**: Users can remove courses from the list if needed.
+## ✨ Features
 
-## Technologies Used
+- ➕ **Add Course**: Add courses by specifying year, semester, name, credits, and grade.
+- 📋 **Display Courses**: View a dynamic table of added courses.
+- 📊 **Calculate GPA**: Instantly calculates your GPA.
+- 📅 **Dynamic Year & Semester**: Filter and organize courses based on academic periods.
+- ❌ **Delete Course**: Remove courses easily if needed.
 
-- **HTML**: For the structure of the webpage.
-- **CSS**: For styling the webpage and making it responsive.
-- **JavaScript**: For handling the dynamic functionality such as course addition, GPA calculation, and deletion.
+---
 
-## Installation
+## 🛠️ Technologies Used
+
+- 🧱 **HTML** – Webpage structure
+- 🎨 **CSS** – Styling and responsiveness
+- 🧠 **JavaScript** – Functionality and interactivity
+
+---
+
+## 🧑‍💻 Installation
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:
-
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Uvajanani/GPA-Calculator.git
-
 2. Navigate to the project folder:
+   ```bash
+   cd GPA-Calculator
+3. Open the project:
+   ```bash
+   open index.html
 
-cd GPA-Calculator
+📖 How to Use
+📅 Select Your Year: Use the dropdown to choose your academic year.
 
-3. Open the index.html file in your browser.
-   
-open index.html
+🗓️ Select Your Semester: Pick the semester corresponding to the selected year.
 
-## How to Use
+📚 Add a Course: Enter the course name, credits, and your grade, then click "Add Course".
 
-1. **Select Your Year**: Choose your academic year from the dropdown.
-2. **Select Your Semester**: After selecting the year, choose the semester for that year.
-3. **Add a Course**: Select a course, enter the number of credits, and choose the grade you received. Click "Add Course" to add it to the list.
-4. **View Your Courses**: The courses you add will be displayed in a table. You can delete any course from the list by clicking the "DELETE" button.
-5. **Calculate Your GPA**: Once you've added all your courses, click "Calculate GPA" to see your GPA.
+📝 View Your Courses: All added courses appear in a table. Use the "❌ DELETE" button to remove any.
 
+📈 Calculate GPA: Click "Calculate GPA" to display your GPA instantly.
+
+🙏 Acknowledgements
+Thanks to all contributors, testers, and users who supported this project. ❤️
